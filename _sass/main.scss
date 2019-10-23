@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+// Customization
+
+// You can easily customize Bulma with your own variables.
+// Just uncomment the following block to see the result.
+
+/*
+// 1. Import the initial variables
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+// 2. Set your own initial variables
+// Update the blue shade, used for links
+$blue: #06bcef;
+// Add pink and its invert
+$pink: #ff8080;
+$pink-invert: #fff;
+// Update the sans-serif font family
+$family-sans-serif: "Helvetica", "Arial", sans-serif;
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$primary: $pink;
+$primary-invert: $pink-invert;
+
+// 4. Import the rest of Bulma
+*/
+
+@import "../node_modules/bulma/bulma";
+.header-image {
+    background-image: url("https://lh3.googleusercontent.com/LIy4NWJekg3RuWomNulKYeJy70OmTeCRwrmQx-5YYqpG2CgAl5LGWPTvs875p9WnRsaTZQnVTysEpa7L0n3hp_0qyMcjeXhgYA_iU7XL8lRPbL9BFH4HZdqMfDoMyf36BAEAqWK1XM8kCiZ8llcfCoPL1nptO9DoaDWOCgfAU6LpiTaW2VEU6PozKT0URXuKNKi9Z4ZXls9kISStijTyR7geU-xmKmzRJbJGgci2PjsSKbOvCYmEVAhQCd6M3DA7uQYop1oIjzQmcs1Zi1Ho6PgAsLc31KKtbG87to4UofmQ2kxhcq4JYJA-see2k-jFOZBtWnBuWNDACF1QgMcoHFMjkpTUcxlLkoeIgQhLSpueZP3hzJVArxL0re6K6_U_0u175tRHH1n3xXlcJykNPMyTk1H7B1T9-3_N3wsXJa2TRnTtzsSgOkQtDLN0BPrn8a8QMMn8lnrZLKd5SNNOni3NlzFW2ZkHjrrYS2teYpljYYwN-vaIa1nrHf4p8nT2xlgzFk3Bhf7k0P28ATkk8ssc5vk1vOtzvQvbtLFlQ5TgDpxo-m1KXoPKhBpw33qjIiN9ykKriS4_U89jGuE3fcq5igls9piP-VjjT1oy7sqTZ3oKnNpsJarJJ2g0zD8INhfGhePEFi5rT6pOlxcpMluKewZ26O3fK17fE3ax1u7fuir29z-DkjUl=w1266-h949-no");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+}
+
+.castle-image {
+    background-image: url("../assets/avully.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+}
+.darken-70 {
+    background-color: rgba(0,0,0,0.7);
+}
+.darken-30 {
+    background-color: rgba(0,0,0,0.3);
+}
+.darken-20 {
+    background-color: rgba(0,0,0,0.2);
+}
+.darken-10 {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.fancy {
+    font-family: 'Great Vibes', cursive;
+}
+
+.heading-font {
+    font-family: 'Tangerine', cursive;
+    font-size: 50em;
+}
+
+.font-shadow {
+    text-shadow: 2px 2px 4px #333;
+}
+
+.schedule img {
+    max-height: 10vw;
+}
+.responsive-map{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.responsive-map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.top-margin {
+    margin-top: 2rem;
+}
+
+.map {
+    height: 450px;
+}
+
+.rsvp-en {
+    height: 1138px;
+}
+
+.cards-max {
+    max-width: 800px;
+    margin: 0 auto;
+}
