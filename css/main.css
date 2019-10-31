@@ -7048,3 +7048,7 @@ label.panel-block {
 
 .section {
   padding-top: 4rem; }
+
+.flags {
+  position: absolute;
+  right: 35px; }
