@@ -27,8 +27,22 @@ $primary-invert: $pink-invert;
 */
 
 @import "../node_modules/bulma/bulma";
+@media only screen and (max-width: 767px) {
+    .header-image {
+      /* The file size of this background image is 93% smaller
+         to improve page load speed on mobile internet connections */
+      background-image: url(https://lh3.googleusercontent.com/ZNiEMTVKXnYktZxfcmnRkHDJI6I2xIjanQtM352Z9tBer7aX6uyYKXQViFT9x6ZehcXyCqkPAeBxNbm-K6EuKBc9dfz41039wQOwn7rDojmdw_5f9f4Dk6ciG9Na4YjzJI3oH6fH1E8=w768-no);
+    }
+}
+@media only screen and (max-width: 1023px) {
+    .header-image {
+        /* The file size of this background image is 93% smaller
+            to improve page load speed on mobile internet connections */
+        background-image: url(https://lh3.googleusercontent.com/ZNiEMTVKXnYktZxfcmnRkHDJI6I2xIjanQtM352Z9tBer7aX6uyYKXQViFT9x6ZehcXyCqkPAeBxNbm-K6EuKBc9dfz41039wQOwn7rDojmdw_5f9f4Dk6ciG9Na4YjzJI3oH6fH1E8=w1024-no);
+    }
+}
 .header-image {
-    background-image: url("https://lh3.googleusercontent.com/ZNiEMTVKXnYktZxfcmnRkHDJI6I2xIjanQtM352Z9tBer7aX6uyYKXQViFT9x6ZehcXyCqkPAeBxNbm-K6EuKBc9dfz41039wQOwn7rDojmdw_5f9f4Dk6ciG9Na4YjzJI3oH6fH1E8=w2400-no");
+    background-image: url("https://lh3.googleusercontent.com/ZNiEMTVKXnYktZxfcmnRkHDJI6I2xIjanQtM352Z9tBer7aX6uyYKXQViFT9x6ZehcXyCqkPAeBxNbm-K6EuKBc9dfz41039wQOwn7rDojmdw_5f9f4Dk6ciG9Na4YjzJI3oH6fH1E8=w1200-no");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
