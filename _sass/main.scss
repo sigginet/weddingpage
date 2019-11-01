@@ -110,7 +110,18 @@ $primary-invert: $pink-invert;
 }
 
 .rsvp-en {
-    height: 1350px;
+    height: 1250px;
+}
+
+@media only screen and (max-width: 767px) {
+    .rsvp-en {
+        height: 1500px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .rsvp-en {
+        height: 1250px;
+    }
 }
 
 .cards-max {
