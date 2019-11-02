@@ -81,6 +81,12 @@ html {
     text-align: center;
 }
 
+@media only screen and (min-width: 1024px) {
+    #navbarMenuHeroC.navbar-menu {
+        background-color: inherit;
+    }
+}
+
 .fancy {
     font-family: 'Great Vibes', cursive;
 }
