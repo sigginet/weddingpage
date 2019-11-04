@@ -7063,6 +7063,9 @@ html {
 .rsvp-en {
   height: 1250px; }
 
+.rsvp-is {
+  height: 1350px; }
+
 @media only screen and (max-width: 767px) {
   .rsvp-en {
     height: 1500px; } }
